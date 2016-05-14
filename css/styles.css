@@ -1,0 +1,50 @@
+html{
+	padding: 3%;
+	background-color: #f7f7f7;
+}
+nav {
+	color: white;
+	text-emphasis-color: orange;
+	text-transform: uppercase;
+	background-color: #dddddd;
+	padding-left: 12px;
+	height: 25px;
+	width: 120px;
+	padding-top: 8px;
+ 	display: block;
+ 	border-style: solid;
+	border-color: gray;
+	border-radius: 35%;
+	border-style: outset;
+	border-spacing: inherit;
+ }
+.why {
+	padding: 12px;
+
+}
+.hobbies {
+	margin: 16px;
+  border: 3px solid navy;
+  padding: 6px;
+	background-color: gold;
+	float: bottom;
+	padding-right: 5%;
+	border-style: dotted;
+}
+img {
+	padding: 0%;
+}
+.caption {
+ color: navy;
+}
+.span {
+	color: green;
+}
+a:visited {
+	text-decoration: underline;
+	@font-face {
+	  font-family: 'Glyphicons Halflings';
+
+	  src: url('../fonts/glyphicons-halflings-regular.eot');
+	  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+	}
